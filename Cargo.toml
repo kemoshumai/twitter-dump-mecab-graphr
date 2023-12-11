@@ -1,0 +1,14 @@
+[package]
+name = "twitter-dump-mecab-graphr"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+num_cpus = "1.16.0"
+vibrato = "0.5.0"
+zstd = "0.12.3"
+serde = { version = "1.0.152", features = ["derive"] }
+serde_json = "1.0.91"
